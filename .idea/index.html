@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MyChordds</title>
+    <title>Suchleiste für Akkorde</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Hello Worzld</h1>
+
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Song eingeben...">
+    <button onclick="searchSong()">Suchen</button>
+    <select id="recentSearches"></select>
+    <div id="favorites"></div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
